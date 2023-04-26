@@ -69,7 +69,7 @@ public class Sistema {
     }
 
     private void simular(int limiteTempo) {
-        for (; cronometro <= limiteTempo; cronometro++) {
+        for (; cronometro <= limiteTempo && filaTransacoes.size() > 0; cronometro++) {
             for (int i = 0; i < caixas.length && filaTransacoes.size() > 0; i++) {
                 if (caixas[i].getTickLiberacao() == cronometro) {
                     Transacao transacao = filaTransacoes.remove();

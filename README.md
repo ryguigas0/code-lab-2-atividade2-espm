@@ -4,9 +4,6 @@ Trabalho em grupo da atividade de Estruturas de Dados da ESPM
 
 ## Resolução
 
-TODO: Anotar resolução
-
-Funcionalidade do código:
 Nosso código Java implementa um simulador de um sistema de atendimento de transações. O sistema consiste em usar o método de programação "fila", justamente, para simular uma fila de transações com três caixas eletrônicos que atendem ela. Cada transação é identificada por um código e um tempo de duração e espera do cliente.
 Ao final do seu funcionamento, o programa informa o expediente (é definido pelo usuário e controlado pelo cronômetro). Além de mostrar o tempo médio de espera do cliente na fila, mostra qaunats vezes cada transação foi feita, quantos clientes foram atendidos e quantos clientes não foram atendidos.
 
